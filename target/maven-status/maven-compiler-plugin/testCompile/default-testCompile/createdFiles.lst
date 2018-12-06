@@ -1,0 +1,5 @@
+com\assignment\testRunner\postdetailRunnerTest.class
+com\assignment\api\stepDefinitions\getDetails.class
+com\assignment\api\stepDefinitions\postDetails.class
+com\assignment\common\apispecificMethod.class
+com\assignment\testRunner\getdetailRunnerTest.class

@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.assignment.testRunner.postdetailRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 6, Errors: 2, Skipped: 1, Time elapsed: 3.823 s <<< FAILURE! - in com.assignment.testRunner.postdetailRunnerTest
+Then Send new 200(| 200 |)  Time elapsed: 0.002 s  <<< ERROR!
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://ec2-54-174-213-136.compute-1.amazonaws.com:3000/posts
+Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL: http://ec2-54-174-213-136.compute-1.amazonaws.com:3000/posts
+
+| 200 |  Time elapsed: 0.002 s  <<< ERROR!
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://ec2-54-174-213-136.compute-1.amazonaws.com:3000/posts
+Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL: http://ec2-54-174-213-136.compute-1.amazonaws.com:3000/posts
+
+And Update post(| 400 |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
+| 400 |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
+And Update post(| 600 |)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
+| 600 |  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
+And Update post(| 800 |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
+| 800 |  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: PUT request update failed  expected:<200> but was:<404>
+
