@@ -1,8 +1,8 @@
 This project is created using maven and cucumber. It has the basic GET,POST,PUT apis methods in it.
+
 Project description :-
 
 class : mavencucumberapi/src/test/java/com/assignment/common/apispecificMethod.java
-
 This class is serving as a base class for framework.Every test case is inheriting this class and accessing functions
 to execute GET,PUT,POST method.
 
@@ -11,11 +11,10 @@ mavencucumberapi/src/test/java/com/assignment/api/stepDefinitions/postDetails.ja
 These classes contains the test case in form of user story.
 
 Example :- 
-
-Given url is this
-And data is user name
-When credential is admin
-Then verify page element
+Given url is this,
+And data is user name,
+When credential is admin,
+Then verify page element.
 
 mavencucumberapi/src/test/java/com/assignment/testRunner/getdetailRunnerTest.java and 
 mavencucumberapi/src/test/java/com/assignment/testRunner/postdetailRunnerTest.java are the test runner class for 
